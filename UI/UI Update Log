@@ -1,0 +1,10 @@
+16/04: Upload file TryListViewChat_16_04: 
+Đã:
+  - Đã thay ProductCell thành MessageCell trong ListView
+  - Đã xây cell cho UserMessage và ModelMessage
+  - Đã để ModelMessage chứa 1 List Product, và List Product này được hiện lên ModelMessage, mỗi Product trong List là 1 VBox, và cả Message là 1 Vbox
+  - Hiện giao diện như mong muốn (tạm)
+Chưa:
+  - Xử lý phần file JSON chuyển sang 1 list "Product" Object để merge phần ChatLogic với UI
+  - Chưa động tới Thread và Task, chưa nghiên cứu cách cho các thao tác vào Thread
+
