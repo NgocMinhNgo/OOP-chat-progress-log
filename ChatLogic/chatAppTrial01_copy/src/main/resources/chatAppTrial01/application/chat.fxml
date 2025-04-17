@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="chatAppTrial01.application.Chat"
+      spacing="10" style="-fx-padding: 10;"
+      prefHeight="1000.0" prefWidth="2000.0">
+
+    <ScrollPane fitToWidth="true" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+        <ListView fx:id="messageListView" prefHeight="400" prefWidth="300" />
+    </ScrollPane>
+
+    <HBox spacing="10">
+        <TextField fx:id="inputField" HBox.hgrow="ALWAYS"
+                   style="-fx-font-size: 14px;" promptText="Type your message here..."/>
+        <Button fx:id="sendButton" text="Send"
+                style="-fx-font-size: 14px; -fx-pref-width: 80px;"/>
+    </HBox>
+</VBox>
