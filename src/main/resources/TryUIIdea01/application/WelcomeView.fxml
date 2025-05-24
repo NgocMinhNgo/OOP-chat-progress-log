@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      spacing="20" alignment="CENTER" padding="40"
+      style="-fx-background-color: #f8f9fa;">
+    <Label text="Product Advisor Chat" styleClass="welcome-title"/>
+    <Label text="Chọn sản phẩm bạn muốn được tư vấn hoặc tiếp tục cuộc trò chuyện trước đó"
+           styleClass="welcome-description" wrapText="true" maxWidth="400"/>
+    <Button text="Bắt đầu trò chuyện mới" styleClass="primary-button"></Button>
+
+</VBox>
+
+<!--<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"-->
+<!--      spacing="20" alignment="CENTER" padding="40"-->
+<!--      style="-fx-background-color: #f8f9fa;">-->
+<!--<Label text="Product Advisor Chat" styleClass="welcome-title"/>-->
+<!--<Label text="Chọn sản phẩm bạn muốn được tư vấn hoặc tiếp tục cuộc trò chuyện trước đó"-->
+<!--       styleClass="welcome-description" wrapText="true" maxWidth="400"/>-->
+<!--<Button text="Bắt đầu trò chuyện mới" styleClass="primary-button"-->
+<!--        onAction="#showProductSelectionView"/>-->
+<!--</VBox>-->
+

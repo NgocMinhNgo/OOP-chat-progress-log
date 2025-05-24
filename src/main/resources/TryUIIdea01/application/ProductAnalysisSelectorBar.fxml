@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<HBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="TryUIIdea01.application.ProductAnalysisSelectorController"
+      spacing="10" padding="10" style="-fx-background-color: #f0f0f0;">
+
+    <ComboBox fx:id="productSelector" promptText="Select product type"/>
+    <ComboBox fx:id="analysisMethodSelector" promptText="Select analysis method"/>
+    <Button fx:id="confirmButton" text="Start Conversation" disable="true"/>
+</HBox>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import java.lang.*?>-->
+<!--<?import java.util.*?>-->
+<!--<?import javafx.scene.*?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="TryUIIdea01.application.ProductAnalysisSelectorBar"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+
+<!--</AnchorPane>-->

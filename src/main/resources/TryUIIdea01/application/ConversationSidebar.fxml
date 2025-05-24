@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="TryUIIdea01.application.ConversationSidebarController"
+      prefWidth="250" spacing="10"
+      style="-fx-background-color: #f0f4f8; -fx-padding: 10;">
+
+    <HBox fx:id="header" alignment="CENTER_LEFT">
+        <padding>
+            <Insets top="5" right="0" bottom="15" left="0"/>
+        </padding>
+        <Button fx:id="newChatButton" text="New Chat"
+                style="-fx-background-color: #4a90e2; -fx-text-fill: white;">
+            <graphic>
+                <FontIcon iconLiteral="fas-plus"/>
+            </graphic>
+        </Button>
+    </HBox>
+
+    <ListView fx:id="conversationListView" VBox.vgrow="ALWAYS"/>
+</VBox>
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import java.lang.*?>-->
+<!--<?import java.util.*?>-->
+<!--<?import javafx.scene.*?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="TryUIIdea01.application.ConversationSidebar"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+
+<!--</AnchorPane>-->

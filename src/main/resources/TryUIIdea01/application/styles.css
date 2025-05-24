@@ -1,0 +1,28 @@
+/* Main styles */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+/* Welcome view styles */
+.welcome-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.welcome-description {
+    -fx-font-size: 14px;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Button styles */
+.primary-button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3a80d2;
+}

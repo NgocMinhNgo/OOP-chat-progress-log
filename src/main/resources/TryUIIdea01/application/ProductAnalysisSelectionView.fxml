@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="TryUIIdea01.application.ProductAnalysisSelectionController"
+      spacing="20" alignment="CENTER">
+
+    <padding>
+        <Insets top="30" right="30" bottom="30" left="30"/>
+    </padding>
+
+    <style>
+        -fx-background-color: #f8f9fa;
+    </style>
+
+    <Label text="Chọn loại sản phẩm và phương thức phân tích"
+           style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <GridPane hgap="15" vgap="15" alignment="CENTER">
+        <Label text="Loại sản phẩm:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <ComboBox fx:id="productTypeCombo" promptText="Choose Type of Product"
+                  GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Phương thức phân tích:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <ComboBox fx:id="analysisMethodCombo" promptText="Chọn phương thức"
+                  GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <Button fx:id="confirmButton" text="Confirm"
+            style="-fx-background-color: #4a90e2; -fx-text-fill: white;"/>
+</VBox>
+
+<!--<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"-->
+<!--      fx:controller="TryUIIdea01.application.ProductAnalysisSelectionController"-->
+<!--      spacing="20" alignment="CENTER" padding="Insets(30)"-->
+<!--      style="-fx-background-color: #f8f9fa;">-->
+
+<!--    <Label text="Chọn loại sản phẩm và phương thức phân tích"-->
+<!--           style="-fx-font-size: 20px; -fx-font-weight: bold;"/>-->
+
+<!--    <GridPane hgap="15" vgap="15" alignment="CENTER">-->
+<!--        <Label text="Loại sản phẩm:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--        <ComboBox fx:id="productTypeCombo" promptText="Choose Type of Product"-->
+<!--                  GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+
+<!--        <Label text="Phương thức phân tích:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+<!--        <ComboBox fx:id="analysisMethodCombo" promptText="Chọn phương thức"-->
+<!--                  GridPane.rowIndex="1" GridPane.columnIndex="1"/>-->
+<!--    </GridPane>-->
+
+<!--    <Button fx:id="confirmButton" text="Confirm"-->
+<!--            style="-fx-background-color: #4a90e2; -fx-text-fill: white;"/>-->
+<!--</VBox>-->
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import java.lang.*?>-->
+<!--<?import java.util.*?>-->
+<!--<?import javafx.scene.*?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="TryUIIdea01.application.ProductAnalysisSelectionView"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+
+<!--</AnchorPane>-->

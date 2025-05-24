@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="TryUIIdea01.application.MainAppController"
+            stylesheets="@styles.css">
+
+    <left>
+        <!-- Conversation Sidebar Component -->
+        <VBox fx:id="sidebarContainer" BorderPane.alignment="CENTER"/>
+    </left>
+
+    <center>
+        <!-- Dynamic Content Area -->
+        <StackPane fx:id="contentArea" BorderPane.alignment="CENTER"/>
+    </center>
+</BorderPane>
